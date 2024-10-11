@@ -1,6 +1,6 @@
 {
   "name": "pdf-render",
-  "version": "4.0.0",
+  "version": "1.0.0",
   "license": "MIT",
   "description": "A render engine for Node and the browser",
   "author": "Nimrod Ram <nimrod@simpleclosure.com>",
@@ -29,6 +29,7 @@
     "svg-arc-to-cubic-bezier": "^3.2.0"
   },
   "devDependencies": {
+    "@babel/core": "^7.20.7",
     "@babel/plugin-transform-runtime": "^7.19.6",
     "@babel/preset-env": "^7.20.2",
     "@babel/preset-react": "^7.18.6",
