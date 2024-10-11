@@ -1,0 +1,45 @@
+{
+  "name": "pdf-render",
+  "version": "4.0.0",
+  "license": "MIT",
+  "description": "A render engine for Node and the browser",
+  "author": "Nimrod Ram <nimrod@simpleclosure.com>",
+  "homepage": "https://github.com/simpleclosure/pdf-render",
+  "type": "module",
+  "main": "./lib/index.js",
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/simpleclosure/pdf-render"
+  },
+  "scripts": {
+    "test": "vitest",
+    "build": "rimraf ./lib && rollup -c",
+    "watch": "rimraf ./lib && rollup -c -w"
+  },
+  "dependencies": {
+    "@babel/runtime": "^7.20.13",
+    "@react-pdf/fns": "3.0.0",
+    "@react-pdf/primitives": "^4.0.0",
+    "@react-pdf/textkit": "^5.0.0",
+    "@react-pdf/types": "^2.7.0",
+    "abs-svg-path": "^0.1.1",
+    "color-string": "^1.9.1",
+    "normalize-svg-path": "^1.1.0",
+    "parse-svg-path": "^0.1.2",
+    "svg-arc-to-cubic-bezier": "^3.2.0"
+  },
+  "devDependencies": {
+    "@babel/plugin-transform-runtime": "^7.19.6",
+    "@babel/preset-env": "^7.20.2",
+    "@babel/preset-react": "^7.18.6",
+    "@babel/plugin-proposal-class-properties": "^7.18.6",
+    "@babel/plugin-proposal-optional-chaining": "^7.20.7",
+    "@rollup/plugin-babel": "^6.0.0",
+    "@rollup/plugin-json": "^6.1.0",
+    "rimraf": "^2.6.3",
+    "vitest": "^1.2.0"
+  },
+  "files": [
+    "lib"
+  ]
+}
