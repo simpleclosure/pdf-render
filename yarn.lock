@@ -1047,12 +1047,12 @@
   dependencies:
     "@babel/runtime" "^7.20.13"
 
-"@react-pdf/primitives@^4.0.0":
+"@react-pdf/primitives@4.0.0":
   version "4.0.0"
   resolved "https://registry.npmjs.org/@react-pdf/primitives/-/primitives-4.0.0.tgz"
   integrity sha512-yp4E0rDL03NaUp/CnDBz3HQNfH2Mzdlgku57yhTMGNzetwB0NJusXcjYg5XsTGIXnR7Tv80JKI4O4ajj+oaLeQ==
 
-"@react-pdf/textkit@^5.0.0":
+"@react-pdf/textkit@5.0.0":
   version "5.0.0"
   resolved "https://registry.npmjs.org/@react-pdf/textkit/-/textkit-5.0.0.tgz"
   integrity sha512-+K6zkF6lDXHIZZ9nNzplJ48IrjXNGQqVfO5v73AsutHbvx44E62t46EeoGLHsmjGeMG70TooSI1Mwq/7f/5tLw==
@@ -1063,7 +1063,7 @@
     hyphen "^1.6.4"
     unicode-properties "^1.4.1"
 
-"@react-pdf/types@^2.7.0":
+"@react-pdf/types@2.7.0":
   version "2.7.0"
   resolved "https://registry.npmjs.org/@react-pdf/types/-/types-2.7.0.tgz"
   integrity sha512-7KrPPCpgRPKR+g+T127PE4bpw9Q84ZiY07EYRwXKVtTEVW9wJ5BZiF9smT9IvH19s+MQaDLmYRgjESsnqlyH0Q==
